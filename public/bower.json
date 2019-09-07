@@ -1,0 +1,25 @@
+{
+  "name": "transport-operating-system",
+  "description": "a webapplication for maintaining day-to-day operations of cargo business",
+  "main": "",
+  "authors": [
+    "yuvraj sablania"
+  ],
+  "license": "",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "admin-lte": "^2.4.15",
+    "axios": "^0.19.0",
+    "datatables.net-responsive-bs": "^2.2.3",
+    "parsleyjs": "^2.9.1",
+    "jquery-confirm2": "craftpip/jquery-confirm#^3.3.4"
+  }
+}
