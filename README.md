@@ -25,7 +25,7 @@ If you are not using XAMPP, LAMP or WAMP then you also need to install
 2. run "php artisan key:generate" command in project folder
 > Laravel-Transport-System/php artisan key:generate
 3. Create database "tos_db".
-4. Change database settings
+4. Change database settings in ".env" file
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
