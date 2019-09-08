@@ -8,7 +8,7 @@ Conversion of my previous transport system core php to laravel.
 * Php CLI >= 7.1.3
 * Mysql = 8.0
 * Bower Package manager
-* Composer
+* Php Composer
 
 * BCMath PHP Extension
 * Ctype PHP Extension
@@ -37,9 +37,11 @@ DB_PASSWORD=YOUR PASSWORD
 > Laravel-Transport-System/php artisan migrate
 6. run "php artisan db:seed" command in project folder
 > Laravel-Transport-System/php artisan db:seed
-7. run "bower install" command in project folder/public
+7. run “php composer.phar install” command in project folder to install dependencies
+> Laravel-Transport-System/php composer.phar install
+8. run "bower install" command in project folder/public
 > Laravel-Transport-System/public/bower install
-8. run "php artisan serve" command for starting development server.
+9. run "php artisan serve" command for starting development server.
 > Laravel-Transport-System/php artisan serve
 
 #### Login details
