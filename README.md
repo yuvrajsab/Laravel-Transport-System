@@ -5,12 +5,11 @@ Conversion of my previous transport system core php to laravel.
 
 
 ### Requrements
-* Php >= 7.1.3
+* Php CLI >= 7.1.3
 * Mysql = 8.0
 * Bower Package manager
 * Composer
 
-If you are not using XAMPP, LAMP or WAMP then you also need to install
 * BCMath PHP Extension
 * Ctype PHP Extension
 * JSON PHP Extension
@@ -40,12 +39,12 @@ DB_PASSWORD=YOUR PASSWORD
 > Laravel-Transport-System/php artisan db:seed
 7. run "bower install" command in project folder/public
 > Laravel-Transport-System/public/bower install
-
-
-If you are not using XAMPP, LAMP or WAMP then,
-
 8. run "php artisan serve" command for starting development server.
 > Laravel-Transport-System/php artisan serve
+
+#### Login details
+> Email: root@laravel.com
+> Password: password
 
 #### NOTE 
 If you face any error realted to user login try to register user through "php tinker"
